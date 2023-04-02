@@ -5,13 +5,13 @@
 
 # Creating a Workspace
 - 
-    mkdir -p CSE180/src
-    colcon build
-    . install/local_setup.bash
+    1. mkdir -p CSE180/src
+    2. colcon build
+    3. . install/local_setup.bash
 
 # Creating a Package
 -  
-    ros2 pkg create [name_of_pkg]
-    ros2 pkg create --build-type ament_cmake [name_of_pkg]
+    1. ros2 pkg create [name_of_pkg]
+    2. ros2 pkg create --build-type ament_cmake [name_of_pkg]
 
 
